@@ -1,0 +1,7 @@
+kind: pipeline
+name: default
+steps:
+  - name: yapi-droneci-apitest
+    image: this_image_by_your_build
+    commands: 
+      - python3 yapi.py your_project_id your_project_token /code/pictures/
